@@ -124,4 +124,4 @@ if submit_button:
         # Provide download link
         st.download_button(label="Download file disini", data=bytes_io, file_name="Filled_Document.docx", mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document")
     else:
-        st.warning("Harap selesaikan semua pertanyaan sebelum mengunduh PDF.")
+        st.warning("Harap selesaikan semua pertanyaan sebelum mengunduh proposal.")
